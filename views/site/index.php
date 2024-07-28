@@ -1,8 +1,24 @@
 <?php
 
+
+
 /** @var yii\web\View $this */
 
 $this->title = Yii::$app->name;
+
+
+
+
+
+
+/* $c=function ($b) use ($a) {
+
+echo $b+$a;
+
+} */
+
+
+
 
 
 ?>

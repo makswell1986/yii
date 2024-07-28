@@ -20,6 +20,9 @@ $config = [
         'dateFormat' => 'dd.MM.yyyy'
         
    ],
+    'authManager' => [
+        'class' => 'yii\rbac\DbManager',
+    ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'lksdjfowe_65werdflkseor',

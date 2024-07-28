@@ -6998,3 +6998,1053 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1720366537.688
     'REQUEST_TIME' => 1720366537
 ]
+2024-07-15 18:14:09 [127.0.0.1][-][n3cf1442b2iivu1eokaqvp8okp][error][ParseError] ParseError: syntax error, unexpected token "}", expecting ";" in /var/www/html/yii/views/site/index.php:21
+Stack trace:
+#0 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#3 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#10 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2024-07-15 18:14:09 [127.0.0.1][-][n3cf1442b2iivu1eokaqvp8okp][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'n3cf1442b2iivu1eokaqvp8okp'
+    '_csrf' => 'a260e96f82a02d3ec645ad00779dc97f5b5319f6d0f3bc71f7a66494667c89aaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mqruW9gaa7D8Muh-DZLMpwIbGqzSEu5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=n3cf1442b2iivu1eokaqvp8okp; _csrf=a260e96f82a02d3ec645ad00779dc97f5b5319f6d0f3bc71f7a66494667c89aaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mqruW9gaa7D8Muh-DZLMpwIbGqzSEu5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '39018'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1721067249.5915
+    'REQUEST_TIME' => 1721067249
+]
+2024-07-27 03:14:36 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected variable "$c" in /var/www/html/yii/views/site/index.php:22
+Stack trace:
+#0 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#3 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#10 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2024-07-27 03:14:36 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_SEC_PURPOSE' => 'prefetch;prerender'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '36124'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722050076.6511
+    'REQUEST_TIME' => 1722050076
+]
+2024-07-27 03:14:37 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected variable "$c" in /var/www/html/yii/views/site/index.php:22
+Stack trace:
+#0 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#3 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#6 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#10 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2024-07-27 03:14:37 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '36124'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722050077.7122
+    'REQUEST_TIME' => 1722050077
+]
+2024-07-27 05:46:45 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:46:45 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059205.1401
+    'REQUEST_TIME' => 1722059205
+]
+2024-07-27 05:46:57 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:46:57 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059217.3528
+    'REQUEST_TIME' => 1722059217
+]
+2024-07-27 05:46:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:46:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059218.0357
+    'REQUEST_TIME' => 1722059218
+]
+2024-07-27 05:46:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:46:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059218.2411
+    'REQUEST_TIME' => 1722059218
+]
+2024-07-27 05:46:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:46:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059218.4242
+    'REQUEST_TIME' => 1722059218
+]
+2024-07-27 05:46:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:46:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059218.6001
+    'REQUEST_TIME' => 1722059218
+]
+2024-07-27 05:46:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:46:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059218.7843
+    'REQUEST_TIME' => 1722059218
+]
+2024-07-27 05:47:00 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:47:00 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059220.3202
+    'REQUEST_TIME' => 1722059220
+]
+2024-07-27 05:47:00 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:47:00 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059220.7671
+    'REQUEST_TIME' => 1722059220
+]
+2024-07-27 05:47:00 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:47:00 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059220.9285
+    'REQUEST_TIME' => 1722059220
+]
+2024-07-27 05:47:01 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:13
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(13): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:47:01 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '52960'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059221.2086
+    'REQUEST_TIME' => 1722059221
+]
+2024-07-27 05:49:07 [127.0.0.1][-][qijn48iss6607g5kkev9bai5ac][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:14
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(14): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:49:07 [127.0.0.1][-][qijn48iss6607g5kkev9bai5ac][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'qijn48iss6607g5kkev9bai5ac'
+    '_csrf' => 'd28b3d0579cd15babd95a68f74b0966d8662e7f868f108fcc3877b73addcf3ada:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"B9MfPujGQ27Vs-h9hFfsly0XpXUsqUku\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=qijn48iss6607g5kkev9bai5ac; _csrf=d28b3d0579cd15babd95a68f74b0966d8662e7f868f108fcc3877b73addcf3ada%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22B9MfPujGQ27Vs-h9hFfsly0XpXUsqUku%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '40882'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059347.1129
+    'REQUEST_TIME' => 1722059347
+]
+2024-07-27 05:49:11 [127.0.0.1][-][qijn48iss6607g5kkev9bai5ac][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:14
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(14): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 05:49:11 [127.0.0.1][-][qijn48iss6607g5kkev9bai5ac][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'qijn48iss6607g5kkev9bai5ac'
+    '_csrf' => 'd28b3d0579cd15babd95a68f74b0966d8662e7f868f108fcc3877b73addcf3ada:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"B9MfPujGQ27Vs-h9hFfsly0XpXUsqUku\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=qijn48iss6607g5kkev9bai5ac; _csrf=d28b3d0579cd15babd95a68f74b0966d8662e7f868f108fcc3877b73addcf3ada%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22B9MfPujGQ27Vs-h9hFfsly0XpXUsqUku%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '40882'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722059351.5923
+    'REQUEST_TIME' => 1722059351
+]
+2024-07-27 06:17:57 [127.0.0.1][-][qijn48iss6607g5kkev9bai5ac][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $a in /var/www/html/yii/views/site/index.php:14
+Stack trace:
+#0 /var/www/html/yii/views/site/index.php(14): yii\base\ErrorHandler->handleError()
+#1 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(348): require('...')
+#2 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(258): yii\base\View->renderPhpFile()
+#3 /var/www/html/yii/vendor/yiisoft/yii2/base/View.php(157): yii\base\View->renderFile()
+#4 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#5 /var/www/html/yii/controllers/SiteController.php(91): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 /var/www/html/yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#8 /var/www/html/yii/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 /var/www/html/yii/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#10 /var/www/html/yii/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#11 /var/www/html/yii/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#12 /var/www/html/yii/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2024-07-27 06:17:57 [127.0.0.1][-][qijn48iss6607g5kkev9bai5ac][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'qijn48iss6607g5kkev9bai5ac'
+    '_csrf' => 'd28b3d0579cd15babd95a68f74b0966d8662e7f868f108fcc3877b73addcf3ada:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"B9MfPujGQ27Vs-h9hFfsly0XpXUsqUku\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=qijn48iss6607g5kkev9bai5ac; _csrf=d28b3d0579cd15babd95a68f74b0966d8662e7f868f108fcc3877b73addcf3ada%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22B9MfPujGQ27Vs-h9hFfsly0XpXUsqUku%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'yii'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'yii'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.6'
+    'REMOTE_USER' => ''
+    'REMOTE_PORT' => '48182'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.18.0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/html/yii/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/html/yii/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1722061077.4224
+    'REQUEST_TIME' => 1722061077
+]

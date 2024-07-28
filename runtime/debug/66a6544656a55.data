@@ -1,0 +1,211 @@
+a:10:{s:6:"config";s:1481:"a:5:{s:10:"phpVersion";s:6:"8.2.21";s:10:"yiiVersion";s:6:"2.0.50";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.50";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"8.2.21";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:5:{s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:52:"/var/www/html/yii/vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.25.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:47:"/var/www/html/yii/vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:47:"/var/www/html/yii/vendor/yiisoft/yii2-faker/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.6.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:45:"/var/www/html/yii/vendor/yiisoft/yii2-gii/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:55:"/var/www/html/yii/vendor/yiisoft/yii2-symfonymailer/src";}}}}";s:3:"log";s:8342:"a:1:{s:8:"messages";a:31:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1722176582.350449;i:4;a:0:{}i:5;i:2137592;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1722176582.351336;i:4;a:0:{}i:5;i:2244448;}i:2;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1722176582.351352;i:4;a:0:{}i:5;i:2244712;}i:3;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1722176582.351574;i:4;a:0:{}i:5;i:2270616;}i:4;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1722176582.351581;i:4;a:0:{}i:5;i:2271632;}i:5;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1722176582.354571;i:4;a:0:{}i:5;i:2778768;}i:6;a:6:{i:0;s:23:"Route to run: rbac/init";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1722176582.358498;i:4;a:0:{}i:5;i:3365864;}i:7;a:6:{i:0;s:57:"Running action: app\commands\RbacController::actionInit()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1722176582.359416;i:4;a:0:{}i:5;i:3505528;}i:8;a:6:{i:0;s:60:"Opening DB connection: mysql:host=localhost;dbname=yii2basic";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1722176582.368237;i:4;a:0:{}i:5;i:4673272;}i:11;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.369391;i:4;a:0:{}i:5;i:4724304;}i:14;a:6:{i:0;s:29:"SHOW CREATE TABLE `auth_item`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.370334;i:4;a:0:{}i:5;i:4731848;}i:17;a:6:{i:0;s:774:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item' AND `kcu`.`TABLE_NAME` = 'auth_item'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.371304;i:4;a:0:{}i:5;i:4754080;}i:20;a:6:{i:0;s:182:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'Create a post', NULL, NULL, 1722176582, 1722176582)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.37218;i:4;a:0:{}i:5;i:4757464;}i:23;a:6:{i:0;s:180:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('updatePost', 2, 'Update post', NULL, NULL, 1722176582, 1722176582)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.375402;i:4;a:0:{}i:5;i:4758528;}i:26;a:6:{i:0;s:167:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('author', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.378656;i:4;a:0:{}i:5;i:4761344;}i:29;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.384296;i:4;a:0:{}i:5;i:5109888;}i:32;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.384608;i:4;a:0:{}i:5;i:5108872;}i:35;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_item_child`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385362;i:4;a:0:{}i:5;i:5112312;}i:38;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item_child' AND `kcu`.`TABLE_NAME` = 'auth_item_child'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385604;i:4;a:0:{}i:5;i:5114328;}i:41;a:6:{i:0;s:81:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('author', 'createPost')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.386345;i:4;a:0:{}i:5;i:5116328;}i:44;a:6:{i:0;s:166:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('admin', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.38818;i:4;a:0:{}i:5;i:5118696;}i:47;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='updatePost') AND (`name`=`child`)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.389909;i:4;a:0:{}i:5;i:5119592;}i:50;a:6:{i:0;s:80:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'updatePost')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.390092;i:4;a:0:{}i:5;i:5118992;}i:53;a:6:{i:0;s:168:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='author') AND (`name`=`child`)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391504;i:4;a:0:{}i:5;i:5121224;}i:56;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391742;i:4;a:0:{}i:5;i:5122744;}i:59;a:6:{i:0;s:76:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'author')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.39196;i:4;a:0:{}i:5;i:5121496;}i:62;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.393973;i:4;a:0:{}i:5;i:5123736;}i:65;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_assignment`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.394746;i:4;a:0:{}i:5;i:5128680;}i:68;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_assignment' AND `kcu`.`TABLE_NAME` = 'auth_assignment'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.395024;i:4;a:0:{}i:5;i:5130232;}i:71;a:6:{i:0;s:103:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('2', 'author', 1722176582)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.396279;i:4;a:0:{}i:5;i:5165344;}i:74;a:6:{i:0;s:102:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('1', 'admin', 1722176582)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.398167;i:4;a:0:{}i:5;i:5166120;}}}";s:9:"profiling";s:14223:"a:3:{s:6:"memory";i:5224976;s:4:"time";d:0.05622506141662598;s:8:"messages";a:46:{i:9;a:6:{i:0;s:60:"Opening DB connection: mysql:host=localhost;dbname=yii2basic";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1722176582.368239;i:4;a:0:{}i:5;i:4673648;}i:10;a:6:{i:0;s:60:"Opening DB connection: mysql:host=localhost;dbname=yii2basic";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1722176582.368992;i:4;a:0:{}i:5;i:4716264;}i:12;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.369403;i:4;a:0:{}i:5;i:4725088;}i:13;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.370316;i:4;a:0:{}i:5;i:4732280;}i:15;a:6:{i:0;s:29:"SHOW CREATE TABLE `auth_item`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.37034;i:4;a:0:{}i:5;i:4732544;}i:16;a:6:{i:0;s:29:"SHOW CREATE TABLE `auth_item`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.370601;i:4;a:0:{}i:5;i:4733896;}i:18;a:6:{i:0;s:774:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item' AND `kcu`.`TABLE_NAME` = 'auth_item'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.371312;i:4;a:0:{}i:5;i:4754904;}i:19;a:6:{i:0;s:774:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item' AND `kcu`.`TABLE_NAME` = 'auth_item'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.372121;i:4;a:0:{}i:5;i:4756864;}i:21;a:6:{i:0;s:182:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'Create a post', NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.372187;i:4;a:0:{}i:5;i:4757752;}i:22;a:6:{i:0;s:182:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'Create a post', NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.37533;i:4;a:0:{}i:5;i:4758232;}i:24;a:6:{i:0;s:180:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('updatePost', 2, 'Update post', NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.375408;i:4;a:0:{}i:5;i:4758816;}i:25;a:6:{i:0;s:180:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('updatePost', 2, 'Update post', NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.378131;i:4;a:0:{}i:5;i:4759296;}i:27;a:6:{i:0;s:167:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('author', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.378663;i:4;a:0:{}i:5;i:4761632;}i:28;a:6:{i:0;s:167:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('author', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.380247;i:4;a:0:{}i:5;i:4762080;}i:30;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.384303;i:4;a:0:{}i:5;i:5110800;}i:31;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.38457;i:4;a:0:{}i:5;i:5111488;}i:33;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.384612;i:4;a:0:{}i:5;i:5110208;}i:34;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385341;i:4;a:0:{}i:5;i:5112736;}i:36;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_item_child`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385365;i:4;a:0:{}i:5;i:5113008;}i:37;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_item_child`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385551;i:4;a:0:{}i:5;i:5114328;}i:39;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item_child' AND `kcu`.`TABLE_NAME` = 'auth_item_child'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385608;i:4;a:0:{}i:5;i:5115152;}i:40;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item_child' AND `kcu`.`TABLE_NAME` = 'auth_item_child'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.386307;i:4;a:0:{}i:5;i:5117632;}i:42;a:6:{i:0;s:81:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('author', 'createPost')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.386349;i:4;a:0:{}i:5;i:5117136;}i:43;a:6:{i:0;s:81:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('author', 'createPost')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.388123;i:4;a:0:{}i:5;i:5117488;}i:45;a:6:{i:0;s:166:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('admin', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.388185;i:4;a:0:{}i:5;i:5118984;}i:46;a:6:{i:0;s:166:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('admin', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.389855;i:4;a:0:{}i:5;i:5119432;}i:48;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='updatePost') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.389914;i:4;a:0:{}i:5;i:5120504;}i:49;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='updatePost') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.390052;i:4;a:0:{}i:5;i:5121192;}i:51;a:6:{i:0;s:80:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'updatePost')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.390096;i:4;a:0:{}i:5;i:5119800;}i:52;a:6:{i:0;s:80:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'updatePost')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.391457;i:4;a:0:{}i:5;i:5120152;}i:54;a:6:{i:0;s:168:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='author') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391509;i:4;a:0:{}i:5;i:5122136;}i:55;a:6:{i:0;s:168:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='author') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391678;i:4;a:0:{}i:5;i:5123440;}i:57;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391746;i:4;a:0:{}i:5;i:5123656;}i:58;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391918;i:4;a:0:{}i:5;i:5124344;}i:60;a:6:{i:0;s:76:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'author')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.391964;i:4;a:0:{}i:5;i:5122304;}i:61;a:6:{i:0;s:76:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'author')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.39371;i:4;a:0:{}i:5;i:5122640;}i:63;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.393978;i:4;a:0:{}i:5;i:5124432;}i:64;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.394728;i:4;a:0:{}i:5;i:5127824;}i:66;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_assignment`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.394751;i:4;a:0:{}i:5;i:5129376;}i:67;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_assignment`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.394959;i:4;a:0:{}i:5;i:5130568;}i:69;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_assignment' AND `kcu`.`TABLE_NAME` = 'auth_assignment'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.395029;i:4;a:0:{}i:5;i:5131056;}i:70;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_assignment' AND `kcu`.`TABLE_NAME` = 'auth_assignment'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.395751;i:4;a:0:{}i:5;i:5133016;}i:72;a:6:{i:0;s:103:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('2', 'author', 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.396286;i:4;a:0:{}i:5;i:5166048;}i:73;a:6:{i:0;s:103:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('2', 'author', 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.398107;i:4;a:0:{}i:5;i:5166432;}i:75;a:6:{i:0;s:102:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('1', 'admin', 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.398172;i:4;a:0:{}i:5;i:5166824;}i:76;a:6:{i:0;s:102:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('1', 'admin', 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.400044;i:4;a:0:{}i:5;i:5167208;}}}";s:2:"db";s:13818:"a:1:{s:8:"messages";a:44:{i:12;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.369403;i:4;a:0:{}i:5;i:4725088;}i:13;a:6:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.370316;i:4;a:0:{}i:5;i:4732280;}i:15;a:6:{i:0;s:29:"SHOW CREATE TABLE `auth_item`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.37034;i:4;a:0:{}i:5;i:4732544;}i:16;a:6:{i:0;s:29:"SHOW CREATE TABLE `auth_item`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.370601;i:4;a:0:{}i:5;i:4733896;}i:18;a:6:{i:0;s:774:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item' AND `kcu`.`TABLE_NAME` = 'auth_item'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.371312;i:4;a:0:{}i:5;i:4754904;}i:19;a:6:{i:0;s:774:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item' AND `kcu`.`TABLE_NAME` = 'auth_item'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.372121;i:4;a:0:{}i:5;i:4756864;}i:21;a:6:{i:0;s:182:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'Create a post', NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.372187;i:4;a:0:{}i:5;i:4757752;}i:22;a:6:{i:0;s:182:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'Create a post', NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.37533;i:4;a:0:{}i:5;i:4758232;}i:24;a:6:{i:0;s:180:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('updatePost', 2, 'Update post', NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.375408;i:4;a:0:{}i:5;i:4758816;}i:25;a:6:{i:0;s:180:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('updatePost', 2, 'Update post', NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.378131;i:4;a:0:{}i:5;i:4759296;}i:27;a:6:{i:0;s:167:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('author', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.378663;i:4;a:0:{}i:5;i:4761632;}i:28;a:6:{i:0;s:167:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('author', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.380247;i:4;a:0:{}i:5;i:4762080;}i:30;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.384303;i:4;a:0:{}i:5;i:5110800;}i:31;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.38457;i:4;a:0:{}i:5;i:5111488;}i:33;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.384612;i:4;a:0:{}i:5;i:5110208;}i:34;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385341;i:4;a:0:{}i:5;i:5112736;}i:36;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_item_child`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385365;i:4;a:0:{}i:5;i:5113008;}i:37;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_item_child`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385551;i:4;a:0:{}i:5;i:5114328;}i:39;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item_child' AND `kcu`.`TABLE_NAME` = 'auth_item_child'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.385608;i:4;a:0:{}i:5;i:5115152;}i:40;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_item_child' AND `kcu`.`TABLE_NAME` = 'auth_item_child'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.386307;i:4;a:0:{}i:5;i:5117632;}i:42;a:6:{i:0;s:81:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('author', 'createPost')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.386349;i:4;a:0:{}i:5;i:5117136;}i:43;a:6:{i:0;s:81:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('author', 'createPost')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.388123;i:4;a:0:{}i:5;i:5117488;}i:45;a:6:{i:0;s:166:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('admin', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.388185;i:4;a:0:{}i:5;i:5118984;}i:46;a:6:{i:0;s:166:"INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('admin', 1, NULL, NULL, NULL, 1722176582, 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.389855;i:4;a:0:{}i:5;i:5119432;}i:48;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='updatePost') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.389914;i:4;a:0:{}i:5;i:5120504;}i:49;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='updatePost') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.390052;i:4;a:0:{}i:5;i:5121192;}i:51;a:6:{i:0;s:80:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'updatePost')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.390096;i:4;a:0:{}i:5;i:5119800;}i:52;a:6:{i:0;s:80:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'updatePost')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.391457;i:4;a:0:{}i:5;i:5120152;}i:54;a:6:{i:0;s:168:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='author') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391509;i:4;a:0:{}i:5;i:5122136;}i:55;a:6:{i:0;s:168:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='author') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391678;i:4;a:0:{}i:5;i:5123440;}i:57;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391746;i:4;a:0:{}i:5;i:5123656;}i:58;a:6:{i:0;s:172:"SELECT `name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at` FROM `auth_item`, `auth_item_child` WHERE (`parent`='createPost') AND (`name`=`child`)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.391918;i:4;a:0:{}i:5;i:5124344;}i:60;a:6:{i:0;s:76:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'author')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.391964;i:4;a:0:{}i:5;i:5122304;}i:61;a:6:{i:0;s:76:"INSERT INTO `auth_item_child` (`parent`, `child`) VALUES ('admin', 'author')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.39371;i:4;a:0:{}i:5;i:5122640;}i:63;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.393978;i:4;a:0:{}i:5;i:5124432;}i:64;a:6:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.394728;i:4;a:0:{}i:5;i:5127824;}i:66;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_assignment`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.394751;i:4;a:0:{}i:5;i:5129376;}i:67;a:6:{i:0;s:35:"SHOW CREATE TABLE `auth_assignment`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.394959;i:4;a:0:{}i:5;i:5130568;}i:69;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_assignment' AND `kcu`.`TABLE_NAME` = 'auth_assignment'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.395029;i:4;a:0:{}i:5;i:5131056;}i:70;a:6:{i:0;s:786:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'auth_assignment' AND `kcu`.`TABLE_NAME` = 'auth_assignment'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1722176582.395751;i:4;a:0:{}i:5;i:5133016;}i:72;a:6:{i:0;s:103:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('2', 'author', 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.396286;i:4;a:0:{}i:5;i:5166048;}i:73;a:6:{i:0;s:103:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('2', 'author', 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.398107;i:4;a:0:{}i:5;i:5166432;}i:75;a:6:{i:0;s:102:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('1', 'admin', 1722176582)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.398172;i:4;a:0:{}i:5;i:5166824;}i:76;a:6:{i:0;s:102:"INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('1', 'admin', 1722176582)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1722176582.400044;i:4;a:0:{}i:5;i:5167208;}}}";s:5:"event";s:1279:"a:7:{i:0;a:5:{s:4:"time";d:1722176582.356952;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\console\Application";}i:1;a:5:{s:4:"time";d:1722176582.359397;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\console\Application";}i:2;a:5:{s:4:"time";d:1722176582.35941;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"app\commands\RbacController";}i:3;a:5:{s:4:"time";d:1722176582.368978;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:4;a:5:{s:4:"time";d:1722176582.400075;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:27:"app\commands\RbacController";}i:5;a:5:{s:4:"time";d:1722176582.400083;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\console\Application";}i:6;a:5:{s:4:"time";d:1722176582.400092;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:23:"yii\console\Application";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1722176582.346344;s:3:"end";d:1722176582.402664;s:6:"memory";i:5224976;}";s:4:"dump";s:6:"a:0:{}";s:7:"summary";a:13:{s:3:"tag";s:13:"66a6544656a55";s:3:"url";s:17:"php yii rbac/init";s:4:"ajax";i:0;s:6:"method";s:7:"COMMAND";s:2:"ip";s:3:"oem";s:4:"time";d:1722176582.339773;s:10:"statusCode";i:0;s:8:"sqlCount";i:22;s:21:"excessiveCallersCount";i:0;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:5224976;s:14:"processingTime";d:0.05622506141662598;}s:10:"exceptions";a:0:{}}
